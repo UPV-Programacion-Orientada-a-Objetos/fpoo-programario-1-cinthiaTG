@@ -1,12 +1,12 @@
 package edu.upvictoria.fpoo;
 
-// import edu.upvictoria.fpoo.EstructurasSecuenciales.EjercicioUno;
-// import edu.upvictoria.fpoo.*;
-
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello and welcome!");
-
-        // EjercicioUno uno = new EjercicioUno();
+    public static void main( String[] args )
+    {
+        ProblemaUno obj;
+        obj = new ProblemaUno();
+        ProblemaDos obj2;
+        obj2= new ProblemaDos();
+        System.out.println(Suma.sumar(1.2,4));
     }
 }

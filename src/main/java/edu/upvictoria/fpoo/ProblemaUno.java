@@ -11,7 +11,6 @@ public class ProblemaUno {
     /*
      *crear una suma de dos numeros usarndo el bufer reader
      * */
-    public String color;
     int a,b;
     public ProblemaUno(){
     }
@@ -20,7 +19,6 @@ public class ProblemaUno {
         int x;
         int y;
         String entrada;
-        String cadena;
         System.out.println("Escribe un valor: ");
         entrada = bufer.readLine();
         x = Integer.parseInt(entrada);
