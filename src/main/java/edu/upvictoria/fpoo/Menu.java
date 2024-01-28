@@ -1,6 +1,7 @@
 package edu.upvictoria.fpoo;
 
 import edu.upvictoria.fpoo.Problema1.ProblemaUno;
+import edu.upvictoria.fpoo.Problema10.ProblemaDiez;
 import edu.upvictoria.fpoo.Problema2.ProblemaDos;
 import edu.upvictoria.fpoo.Problema3.ProblemaTres;
 import edu.upvictoria.fpoo.Problema4.ProblemaCuatro;
@@ -8,13 +9,14 @@ import edu.upvictoria.fpoo.Problema5.ProblemaCinco;
 import edu.upvictoria.fpoo.Problema6.ProblemaSeis;
 import edu.upvictoria.fpoo.Problema7.ProblemaSiete;
 import edu.upvictoria.fpoo.Problema8.ProblemaOcho;
+import edu.upvictoria.fpoo.Problema9.ProblemaNueve;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class Menu {
-    public void printMenu() {
+    public void MostrarMenu() {
         System.out.println("#-------------PROBLEMARIO 1----------#");
         System.out.println("1) Suma de dos números int double");
         System.out.println("2) promedio de calificaciones");
@@ -42,13 +44,12 @@ public class Menu {
         System.out.println("24) Ahorro");
         System.out.println("25) Cheques");
         System.out.println("26) Concepto de monto");
-        System.out.println("27) Salir");
     }
 
-    public void selectOpc() {
+    public void Opcion() {
         try (BufferedReader scanner = new BufferedReader(new InputStreamReader(System.in))) {
             int opc = 0;
-            printMenu();
+            MostrarMenu();
             opc = Integer.parseInt(scanner.readLine());
             switch (opc) {
                 case 1:
@@ -75,8 +76,13 @@ public class Menu {
                 case 8:
                     ProblemaOcho ejercicio8 = new ProblemaOcho();
                     break;
+                case 9:
+                    ProblemaNueve ejercicio9 = new ProblemaNueve();
+                    break;
+                case 10:
+                    ProblemaDiez ejercicio10 = new ProblemaDiez();
                 default:
-                    System.out.println("Opción no válida. Por favor, seleccione una opción válida.");
+                    System.out.println("Opción no válida.");
             }
         } catch (IOException | NumberFormatException e) {
             e.printStackTrace();

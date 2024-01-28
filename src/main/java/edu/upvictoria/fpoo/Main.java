@@ -11,7 +11,7 @@ public class Main {
         BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
 
         Menu menu = new Menu();
-        menu.selectOpc();
+        menu.Opcion();
 
     }
 }
