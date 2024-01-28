@@ -2,6 +2,9 @@ package edu.upvictoria.fpoo;
 
 import edu.upvictoria.fpoo.Problema1.ProblemaUno;
 import edu.upvictoria.fpoo.Problema10.ProblemaDiez;
+import edu.upvictoria.fpoo.Problema11.ProblemaOnce;
+import edu.upvictoria.fpoo.Problema12.ProblemaDoce;
+import edu.upvictoria.fpoo.Problema14.ProblemaCatorce;
 import edu.upvictoria.fpoo.Problema2.ProblemaDos;
 import edu.upvictoria.fpoo.Problema3.ProblemaTres;
 import edu.upvictoria.fpoo.Problema4.ProblemaCuatro;
@@ -10,6 +13,7 @@ import edu.upvictoria.fpoo.Problema6.ProblemaSeis;
 import edu.upvictoria.fpoo.Problema7.ProblemaSiete;
 import edu.upvictoria.fpoo.Problema8.ProblemaOcho;
 import edu.upvictoria.fpoo.Problema9.ProblemaNueve;
+import edu.upvictoria.fpoo.problema13.ProblemaTrece;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -30,16 +34,16 @@ public class Menu {
         System.out.println("10) Modista- medidas de la tela de Metros->Pulgadas.");
         System.out.println("11) Conagua- pago por persona.");
         System.out.println("12) Área de un triángulo");
-        System.out.println("13) Conversiones de peso a dólar");
-        System.out.println("14) Edad del personal");
+        System.out.println("13) convertir peso a dólar");
+        System.out.println("14) Edad personal");//
         System.out.println("15) Estacionamiento");
         System.out.println("16) Pinturas");
         System.out.println("17) Hipotenusa");
-        System.out.println("18) Autobuses \"La curva loca\"");
+        System.out.println("18) Autobuses");
         System.out.println("19) Tiempo en bicicleta");
         System.out.println("20) Costo de llamada telefónica");
-        System.out.println("21) CONAGUA");
-        System.out.println("22) Compañía de luz y sombras CLS");
+        System.out.println("21) Conagua");
+        System.out.println("22) Compañía de luz");
         System.out.println("23) Descuento e IVA");
         System.out.println("24) Ahorro");
         System.out.println("25) Cheques");
@@ -81,6 +85,19 @@ public class Menu {
                     break;
                 case 10:
                     ProblemaDiez ejercicio10 = new ProblemaDiez();
+                    break;
+                case 11:
+                    ProblemaOnce ejercicio11 = new ProblemaOnce();
+                    break;
+                case 12:
+                    ProblemaDoce ejercicio12 = new ProblemaDoce();
+                    break;
+                case 13:
+                    ProblemaTrece ejercicio13 = new ProblemaTrece();
+                    break;
+                case 14:
+                    ProblemaCatorce ejercicio14 = new ProblemaCatorce();
+                    break;
                 default:
                     System.out.println("Opción no válida.");
             }
