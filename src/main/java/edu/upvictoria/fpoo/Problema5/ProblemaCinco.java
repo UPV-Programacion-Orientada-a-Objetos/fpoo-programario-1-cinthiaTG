@@ -1,8 +1,6 @@
 package edu.upvictoria.fpoo.Problema5;
 import edu.upvictoria.fpoo.Problema3.AreaRectangulo;
 import edu.upvictoria.fpoo.Problema3.ProblemaTres;
-import edu.upvictoria.fpoo.Problema4.Menu;
-import edu.upvictoria.fpoo.Problema4.ProblemaCuatro;
 
 import java.io.BufferedReader;
 import java.io.IOException;

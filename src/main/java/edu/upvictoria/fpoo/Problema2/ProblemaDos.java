@@ -5,11 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class ProblemaDos extends Promedio {
-    int a, b,c,d;
-    public ProblemaDos(){
-    }
-
-    public static void main(String[] args) throws IOException {
+    public ProblemaDos() throws IOException{
         BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
         double[] calificaciones = new double[4];
 

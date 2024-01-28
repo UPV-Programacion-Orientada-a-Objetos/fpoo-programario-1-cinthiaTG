@@ -12,7 +12,7 @@ public class ProblemaSeis {
      * Aqui se usa el teorema de pitagoras de a²+b²=c² donde c=hipotenusa y b= radio
      * osea a²=c^2-b²
      * */
-    public static void main(String[] arg) throws IOException{
+    public void ProblemaSeis() throws IOException{
         BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
         double hipotenusa;
         double radio;
