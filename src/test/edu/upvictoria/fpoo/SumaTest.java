@@ -35,4 +35,14 @@ public class SumaTest {
 
         Assert.assertEquals(6.4, resultado, margenDeError);
     }
+    @Test
+    public void sumar_dos_numeros_double_int(){
+        double a = 3.3;
+        int b = 3;
+        Suma s = new Suma();
+        double resultado = s.sumar(a, b);
+        double margenDeError = 0.001;
+
+        Assert.assertEquals(6.3, resultado, margenDeError);
+    }
 }
