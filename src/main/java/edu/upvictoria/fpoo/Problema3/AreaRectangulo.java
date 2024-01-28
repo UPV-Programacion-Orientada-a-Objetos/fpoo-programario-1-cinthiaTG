@@ -1,4 +1,4 @@
-package edu.upvictoria.fpoo;
+package edu.upvictoria.fpoo.Problema3;
 
 public class AreaRectangulo {
     public static int calcularAreaRectangulo(int base, int altura){

@@ -1,9 +1,10 @@
-package edu.upvictoria.fpoo;
+package edu.upvictoria.fpoo.Problema2;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class ProblemaDos extends Promedio{
+public class ProblemaDos extends Promedio {
     int a, b,c,d;
     public ProblemaDos(){
     }
