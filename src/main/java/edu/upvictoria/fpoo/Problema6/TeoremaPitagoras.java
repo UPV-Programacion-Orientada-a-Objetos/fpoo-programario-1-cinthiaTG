@@ -8,6 +8,13 @@ public class TeoremaPitagoras {
 
         return z;
     }
+    public static double calcular_cateto_opuesto(int base, int hipotenusa){
+        double a = Math.pow(base, 2);//cateto ady
+        double b = Math.pow(hipotenusa, 2);//hipotenusa
+        double z = Math.sqrt(b-a);
+
+        return z;
+    }
     public static double calcular_hipotenusa(double ca_op, double ca_ady){
         double a = Math.pow(ca_ady,2);
         double b= Math.pow(ca_op,2);
