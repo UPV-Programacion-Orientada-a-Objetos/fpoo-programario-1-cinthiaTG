@@ -15,6 +15,9 @@ import edu.upvictoria.fpoo.Problema20.ProblemaVeinte;
 import edu.upvictoria.fpoo.Problema21.ProblemaVeintiuno;
 import edu.upvictoria.fpoo.Problema22.ProblemaVeintidos;
 import edu.upvictoria.fpoo.Problema23.ProblemaVeintitres;
+import edu.upvictoria.fpoo.Problema24.ProblemaVeinticuatro;
+import edu.upvictoria.fpoo.Problema25.ProblemaVeinticinco;
+import edu.upvictoria.fpoo.Problema26.ProblemaVeintiseis;
 import edu.upvictoria.fpoo.Problema3.ProblemaTres;
 import edu.upvictoria.fpoo.Problema4.ProblemaCuatro;
 import edu.upvictoria.fpoo.Problema5.ProblemaCinco;
@@ -30,7 +33,7 @@ import java.io.InputStreamReader;
 
 public class Menu {
     public void MostrarMenu() {
-        System.out.println("#-------------PROBLEMARIO 1----------#");
+        System.out.println("#-------------PROBLEMARIO 1------------#");
         System.out.println("1) Suma de dos números int double");
         System.out.println("2) promedio de calificaciones");
         System.out.println("3) Área de rectángulo");
@@ -56,7 +59,7 @@ public class Menu {
         System.out.println("23) Descuento e IVA");
         System.out.println("24) Ahorro");
         System.out.println("25) Cheques");
-        System.out.println("26) Concepto de monto");
+        System.out.println("26) Montos desglosados");
     }
 
     public void Opcion() {
@@ -133,6 +136,15 @@ public class Menu {
                     break;
                 case 23 :
                     ProblemaVeintitres ejercicio23 = new ProblemaVeintitres();
+                    break;
+                case 24:
+                    ProblemaVeinticuatro ejercicio24 = new ProblemaVeinticuatro();
+                    break;
+                case 25:
+                    ProblemaVeinticinco ejercicio25 = new  ProblemaVeinticinco();
+                    break;
+                case 26:
+                    ProblemaVeintiseis ejercicio26 = new ProblemaVeintiseis();
                     break;
                 default:
                     System.out.println("Opción no válida.");
