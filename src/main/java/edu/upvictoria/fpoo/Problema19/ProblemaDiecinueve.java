@@ -13,13 +13,13 @@ public class ProblemaDiecinueve {
         BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
         String entrada;
         double distancia, velocidad, tiepo;
-        System.out.println("A que distancia esta la ciudad");
+        System.out.println("A que distancia esta la ciudad en km");
         entrada =bufer.readLine();
         distancia = Double.parseDouble(entrada);
-        System.out.println("A que velocidad esta persona conduce la bicicleta");
+        System.out.println("A que velocidad esta persona conduce la bicicleta en km/h");
         entrada =bufer.readLine();
         velocidad =Double.parseDouble(entrada);
         tiepo = CalcularTiempo.Calcular_tiempo_costante(distancia,velocidad);
-        System.out.println("El tiempo que tardaria la persona en llegar a la ciudad es de: " + tiepo);
+        System.out.println("El tiempo que tardaria la persona en llegar a la ciudad es de: " + tiepo +"horas");
 }
 }

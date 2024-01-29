@@ -13,6 +13,8 @@ import edu.upvictoria.fpoo.Problema19.ProblemaDiecinueve;
 import edu.upvictoria.fpoo.Problema2.ProblemaDos;
 import edu.upvictoria.fpoo.Problema20.ProblemaVeinte;
 import edu.upvictoria.fpoo.Problema21.ProblemaVeintiuno;
+import edu.upvictoria.fpoo.Problema22.ProblemaVeintidos;
+import edu.upvictoria.fpoo.Problema23.ProblemaVeintitres;
 import edu.upvictoria.fpoo.Problema3.ProblemaTres;
 import edu.upvictoria.fpoo.Problema4.ProblemaCuatro;
 import edu.upvictoria.fpoo.Problema5.ProblemaCinco;
@@ -125,6 +127,12 @@ public class Menu {
                     break;
                 case 21:
                     ProblemaVeintiuno ejercicio21 = new ProblemaVeintiuno();
+                    break;
+                case 22:
+                    ProblemaVeintidos ejercicio22 = new ProblemaVeintidos();
+                    break;
+                case 23 :
+                    ProblemaVeintitres ejercicio23 = new ProblemaVeintitres();
                     break;
                 default:
                     System.out.println("Opción no válida.");
