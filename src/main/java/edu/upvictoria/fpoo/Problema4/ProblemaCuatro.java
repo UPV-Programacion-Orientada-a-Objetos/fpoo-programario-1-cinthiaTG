@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class ProblemaCuatro extends Menu{
-    public static void main(String[] args) throws IOException {
+    public ProblemaCuatro() throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 
         System.out.println("Se requiere conocer el área de un círculo eliga cómo calcular:");

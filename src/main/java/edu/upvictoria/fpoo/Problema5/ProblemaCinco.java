@@ -1,14 +1,13 @@
 package edu.upvictoria.fpoo.Problema5;
 import edu.upvictoria.fpoo.Problema3.AreaRectangulo;
-import edu.upvictoria.fpoo.Problema3.ProblemaTres;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class ProblemaCinco extends ProblemaTres{
+public class ProblemaCinco{
 
-    public static void main(String[] args) throws IOException {
+    public ProblemaCinco() throws IOException {
         BufferedReader bufer = new BufferedReader(new InputStreamReader(System.in));
         double A,B,C;
 

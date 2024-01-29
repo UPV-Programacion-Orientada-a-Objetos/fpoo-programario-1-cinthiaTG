@@ -34,7 +34,7 @@ import java.io.InputStreamReader;
 public class Menu {
     public void MostrarMenu() {
         System.out.println("#-------------PROBLEMARIO 1------------#");
-        System.out.println("1) Suma de dos números int double");
+        System.out.println("1) Suma de dos números enteros");
         System.out.println("2) promedio de calificaciones");
         System.out.println("3) Área de rectángulo");
         System.out.println("4) Área de circulo");
