@@ -5,7 +5,14 @@ import edu.upvictoria.fpoo.Problema10.ProblemaDiez;
 import edu.upvictoria.fpoo.Problema11.ProblemaOnce;
 import edu.upvictoria.fpoo.Problema12.ProblemaDoce;
 import edu.upvictoria.fpoo.Problema14.ProblemaCatorce;
+import edu.upvictoria.fpoo.Problema15.ProblemaQuince;
+import edu.upvictoria.fpoo.Problema16.ProblemaDieciseis;
+import edu.upvictoria.fpoo.Problema17.ProblemaDiecisiete;
+import edu.upvictoria.fpoo.Problema18.ProblemaDieciocho;
+import edu.upvictoria.fpoo.Problema19.ProblemaDiecinueve;
 import edu.upvictoria.fpoo.Problema2.ProblemaDos;
+import edu.upvictoria.fpoo.Problema20.ProblemaVeinte;
+import edu.upvictoria.fpoo.Problema21.ProblemaVeintiuno;
 import edu.upvictoria.fpoo.Problema3.ProblemaTres;
 import edu.upvictoria.fpoo.Problema4.ProblemaCuatro;
 import edu.upvictoria.fpoo.Problema5.ProblemaCinco;
@@ -97,6 +104,27 @@ public class Menu {
                     break;
                 case 14:
                     ProblemaCatorce ejercicio14 = new ProblemaCatorce();
+                    break;
+                case 15:
+                    ProblemaQuince ejercicio15 = new ProblemaQuince();
+                    break;
+                case 16:
+                    ProblemaDieciseis ejercicio16 = new ProblemaDieciseis();
+                    break;
+                case 17:
+                    ProblemaDiecisiete ejercicio17 = new ProblemaDiecisiete();
+                    break;
+                case 18:
+                    ProblemaDieciocho ejercicio18 = new ProblemaDieciocho();
+                    break;
+                case 19:
+                    ProblemaDiecinueve ejercicio19 = new ProblemaDiecinueve();
+                    break;
+                case 20:
+                    ProblemaVeinte ejercicio20 = new ProblemaVeinte();
+                    break;
+                case 21:
+                    ProblemaVeintiuno ejercicio21 = new ProblemaVeintiuno();
                     break;
                 default:
                     System.out.println("Opción no válida.");

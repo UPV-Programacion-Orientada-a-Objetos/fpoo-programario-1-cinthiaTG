@@ -8,4 +8,10 @@ public class TeoremaPitagoras {
 
         return z;
     }
+    public static double calcular_hipotenusa(double ca_op, double ca_ady){
+        double a = Math.pow(ca_ady,2);
+        double b= Math.pow(ca_op,2);
+        double z = Math.sqrt(a+b);
+        return z;
+    }
 }
